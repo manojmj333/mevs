@@ -1,0 +1,184 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+.custom{
+  position: relative;
+}
+
+.signup{
+  background-color: #3F0071;
+  color: white;
+}
+
+.signup:hover{
+  color: #3F0071;
+  background-color: white;
+
+
+}
+
+#title{
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+#features{
+  position: relative;
+  padding: 7% 15% 7% 12%;
+  background-color: white;
+  z-index: 1;
+
+
+}
+
+#testimonials{
+  background-color: #ef8172;
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: white;
+
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 5%;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.heading-text{
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+}
+h3{
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight:700;
+}
+
+p{
+  color: #8f8f8f;
+}
+.container-fluid{
+  padding: 3% 15% 4%;
+}
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+.iphone{
+  position: absolute;
+  width:50%;
+  right: 30%;
+  transform: rotate(25deg);
+}
+
+.fas1{
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+.fas1:hover{
+    color: #ff4c68;
+
+}
+
+.feature-sec{
+  padding: 5%;
+
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.company-brand{
+  width:15%;
+  margin: 30px;
+}
+
+/* .card{
+  margin-left: 4rem;
+  margin-right: 3rem;
+} */
+
+.price-tag{
+  color: #000;
+
+}
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.price2{
+  padding-bottom: 2.5rem;
+}
+
+#cta{
+   background-color: #ff4c68;
+   padding-top: 4.5rem;
+   padding-bottom: 3rem;
+}
+
+.social-media{
+  margin: 6px;
+  color: #000;
+}
+#footer{
+  padding-top: 4.5rem;
+  padding-bottom: 3.3rem;
+}
+
+.copyright{
+  font-size: 14px;
+}
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .iphone{
+    position: static;
+    transform:rotate(0);
+  }
+}
